@@ -2,11 +2,16 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Hello World!</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline';"
+    />
+    <title>GameEngine: template</title>
   </head>
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application template form GameEngine</p>
+    <h1>GameEngine!</h1>
+    <p>Welcome to your Electron application template for GameEngine</p>
+    <p>let's start something new!!</p>
     <script type="module" src="/src/sandbox/index.ts"></script>
   </body>
 </html>
